@@ -1,0 +1,14 @@
+Do zaprojektowania jest aplikacja ktora będzie :iidane
+- gromadziła zdjęcia notatek, tekstów drukowanych, tekstów mówionych dotyczące przepisów kuchennych
+- umożliwiała wyszukiwanie przepisu na podstawie frazy która będzie przeszukiwała równiez po atrybutach notatki bądź zapytania semantycznego
+- dodawanie, poprawianie istniejących, usuwanie przepisów, przegląd w postaci listy
+- po dołączeniu zdjęcia, dokumentu aplikacja musi rozpoznać tekst z obrazu i zapisać zdjęcie na dysku oraz wyodrębniony przepis. Przepis można poprawic.
+- zdjęcie i przepis zostaną zapisane pod nazwą zaproponowaną użytkownikowi na podstawie tytułu notatki z możliwościa poprawienia
+- dodatkowo uzytkownik wprowadza atrybuty opisujące (słowa kluczowe) np wielkanoc, obiad, przepis babci, sprawdzony i inne. 10 atrybutów
+- podczas zapisu po ewentualnej poprawie wykonujemy full text transcription i generujemy embeddings z zapisem do qdrant
+- wyszukiwarka fraz, atrybutów ma działać na podstawie plików transkrypcji zeskładowanych na dysku 
+- wyszukiwarka semantyczna działać będzie w oparciu o RAG i bazę qdrant
+- liczbę wyników ustala user, program pokazuje tytuły notatek a po wybraniu szczegóły
+
+Przeanalizuj dostępne aplikacje tego typu i zaproponuj biblioteki i modele językowe jakich można użyć.
+Przygotuj schemat aplikacji i zaplanuj kolejne wersje aplikacji (z zakresem funkcjonalności). Opis przygotuj w markdown. Do narysowania schematu wykorzystaj wtyczkę Excalidraw.
