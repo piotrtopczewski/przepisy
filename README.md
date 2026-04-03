@@ -34,6 +34,16 @@ Dokumentacja projektu składa się z następujących elementów:
 - proste wyszukanie pełnotekstowe
 - obsługa klucza OpenAI
 
+  
+  ### Modyfikacja podejścia - v0.1
+  
+  - interfejs streamlit, streamlit cloud
+  - baza sqlite w kontenerze, mozliwośc utraty
+  - wczytanie i zapis zdjęcia/skanu z przepisem do bazy wraz z krótkim opisem
+  - możliwośc przeglądu zapisanych przepisów 
+  
+
+
 ### Wersja 1.5 - Dodatkowe atrybuty i lepsze wyszukiwanie
 
 - import z plików PDF, DOC, txt
